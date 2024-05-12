@@ -1,8 +1,10 @@
+import "animate.css";
+
 const Header = () => {
   return (
     <div className="mt-5">
       <div className="w-full flex items-center justify-center">
-        <div className="bg-gradient-to-br from-[#80E8FF] to-[#BC7AFF] w-[9.8rem] h-[9.8rem] flex items-center justify-center rounded-full mb-5">
+        <div className="bg-gradient-to-br from-[#80E8FF] to-[#BC7AFF] w-[9.8rem] h-[9.8rem] flex items-center justify-center rounded-full mb-5 animate__animated animate__bounceInDown animate-duration">
           <img
             src="https://raw.githubusercontent.com/AhmadMirza2023/portfolio-1/main/src/assets/mirza.jpg"
             alt="me"

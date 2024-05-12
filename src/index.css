@@ -5,3 +5,7 @@
 .text-gradient {
   @apply bg-gradient-to-br text-transparent bg-clip-text from-[#80E8FF] to-[#BC7AFF];
 }
+
+.animate-duration {
+  --animate-duration: 1.4s;
+}
