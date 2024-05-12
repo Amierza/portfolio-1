@@ -14,11 +14,11 @@ const Header = () => {
       </div>
       <div className="text-center">
         <h1 className="text-[1.5rem] font-semibold">
-          Ahmad <span className="text-gradient">Mirza</span> Rafiq Azm
+          Ahmad <span className="text-gradient">Mirza</span> Rafiq Azmi
         </h1>
         <p>Full Stack Developer</p>
       </div>
-      <div className="mt-[2rem] text-sm px-5 md:px-0">
+      <div className="mt-[2rem] text-sm">
         <p className="mb-3">
           Hi, I{"'"}m Mirza, I have experience in several technologies such as
           Flutter and Laravel. In the last year, I have been actively working on
@@ -32,7 +32,7 @@ const Header = () => {
           of its flexibility, performance, and broad ecosystem.
         </p>
       </div>
-      <div className="mt-5 px-5 md:px-0 text-sm">
+      <div className="mt-5 text-sm">
         <h1 className="">Let{"'"}s connect!</h1>
         <span>
           LinkedIn &nbsp;&nbsp;&nbsp;:{" "}
@@ -64,7 +64,7 @@ const Header = () => {
           </a>
         </span>
       </div>
-      <div className="h-1.5 mt-5 mb-5 mx-5 md:mx-0 bg-gradient-to-br from-[#80E8FF] to-[#BC7AFF] rounded-lg"></div>
+      <div className="h-1.5 mt-5 mb-5 bg-gradient-to-br from-[#80E8FF] to-[#BC7AFF] rounded-lg"></div>
     </div>
   );
 };
