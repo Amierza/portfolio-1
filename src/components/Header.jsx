@@ -58,9 +58,9 @@ const Header = () => {
           Instagram :{" "}
           <a
             className="underline text-blue-500"
-            href="https://www.linkedin.com/feed/"
+            href="https://www.instagram.com/mirza_rafiq15/"
           >
-            https://www.linkedin.com/feed/
+            https://www.instagram.com/mirza_rafiq15/
           </a>
         </span>
       </div>

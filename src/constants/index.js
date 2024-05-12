@@ -48,6 +48,7 @@ export const projects = [
     totalMember: "1",
     as: "Front-End Developer",
     year: "2023",
+    stack: "Flutter",
     urlCode: "https://github.com/AhmadMirza2023/kosAppWithFlutter",
   },
 ];
