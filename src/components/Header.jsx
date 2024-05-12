@@ -14,7 +14,7 @@ const Header = () => {
       </div>
       <div className="text-center">
         <h1 className="text-[1.5rem] font-semibold">
-          Ahmad <span className="text-gradient">Mirza</span> Rafiq Azmi
+          Ahmad <span className="text-gradient">Mirza</span> Rafiq Azm
         </h1>
         <p>Full Stack Developer</p>
       </div>
