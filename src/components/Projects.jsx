@@ -35,7 +35,7 @@ const AnimatedProject = ({ project, index }) => {
       <h1 className="text-lg font-semibold mb-3">{project.title}</h1>
       <p className="text-sm mb-3">{project.description}</p>
       <div className="text-sm">
-        <p> Total Member &nbsp;&nbsp;: {project.totalMember}</p>
+        <p> Total Member &nbsp;: {project.totalMember}</p>
         <p>
           As
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -52,11 +52,36 @@ const AnimatedProject = ({ project, index }) => {
           {project.stack}
         </p>
         <p>
-          URL Code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:{" "}
-          <a className="underline text-blue-500" href={project.urlCode}>
-            {project.urlCode}
-          </a>
+          URL Code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:{" "}
+          {project.urlCode ? (
+            <a
+              className="underline text-blue-500"
+              href={project.urlCode}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {project.urlCode}
+            </a>
+          ) : (
+            <span className="text-gray-500">Private Repository</span>
+          )}
         </p>
+        {project.urlAPIProd && (
+          <p>
+            API Production :{" "}
+            <a className="underline text-blue-500" href={project.urlAPIProd}>
+              {project.urlAPIProd}
+            </a>
+          </p>
+        )}
+        {project.urlProd && (
+          <p>
+            URL Production :{" "}
+            <a className="underline text-blue-500" href={project.urlProd}>
+              {project.urlProd}
+            </a>
+          </p>
+        )}
       </div>
       <div className="w-full h-1.5 mt-5 mb-5 bg-gradient-to-br from-[#80E8FF] to-[#BC7AFF] rounded-lg"></div>
     </div>
@@ -74,6 +99,8 @@ AnimatedProject.propTypes = {
     year: PropTypes.number.isRequired,
     stack: PropTypes.string.isRequired,
     urlCode: PropTypes.string.isRequired,
+    urlAPIProd: PropTypes.string,
+    urlProd: PropTypes.string,
   }).isRequired,
   index: PropTypes.number.isRequired,
 };

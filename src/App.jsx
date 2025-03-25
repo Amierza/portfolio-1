@@ -7,7 +7,7 @@ const App = () => {
       <Header />
       <Portfolio />
       <p className="md:text-sm text-xs mb-8 text-slate-400">
-        © 2024 Ahmad Mirza Rafiq Azmi
+        © 2025 Ahmad Mirza Rafiq Azmi
       </p>
     </div>
   );

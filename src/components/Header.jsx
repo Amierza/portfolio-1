@@ -18,20 +18,32 @@ const Header = () => {
         <h1 className="text-[1.5rem] font-semibold">
           Ahmad <span className="text-gradient">Mirza</span> Rafiq Azmi
         </h1>
-        <p>Full Stack Developer</p>
+        <p>Backend Developer</p>
       </div>
       <div className="mt-[2rem] text-sm">
+        <h1 className="font-bold text-xl">Hi, I{"'"}m Mirza</h1>
+        <p className="mb-5">
+          I have experience in several technologies such as Flutter and Laravel.
+          Over the past year, I have been actively working on various projects
+          using both technologies, allowing me to deepen my skills in mobile and
+          web application development. However, my current focus has shifted
+          toward backend development, particularly in Golang.
+        </p>
+        <h1 className="font-bold text-xl">My Focus</h1>
         <p className="mb-3">
-          Hi, I{"'"}m Mirza, I have experience in several technologies such as
-          Flutter and Laravel. In the last year, I have been actively working on
-          various projects using both technologies, which allowed me to expand
-          my skills in mobile and web application development.
+          Currently, I am immersed in Golang. I have worked on several projects
+          using Golang, and while I may not have mastered every aspect of it, I
+          have a solid understanding of the basics. I{"'"}m comfortable with the
+          folder structure, API development, and implementation. Recently, I
+          have also started learning about RabbitMQ in Golang and I also have
+          some exposure to gRPC.
         </p>
         <p>
-          Lately, I{"'"}ve been focusing my attention on the world of
-          JavaScript, specifically MERN technologies (MongoDB, Express.js,
-          React, and Node.js). I was attracted to this technology stack because
-          of its flexibility, performance, and broad ecosystem.
+          Besides Golang, I have a background in Python, although my experience
+          is mostly related to academic projects. I have also worked with other
+          technologies such as Laravel, Flutter, and React. My proficiency in
+          Laravel and Flutter is relatively stronger compared to React and
+          Python.
         </p>
       </div>
       <div className="mt-5 text-sm">
@@ -40,9 +52,9 @@ const Header = () => {
           LinkedIn &nbsp;&nbsp;&nbsp;:{" "}
           <a
             className="underline text-blue-500"
-            href="https://www.linkedin.com/feed/"
+            href="https://www.linkedin.com/in/ahmad-mirza-rafiq-azmi/"
           >
-            https://www.linkedin.com/feed/
+            https://www.linkedin.com/in/ahmad-mirza-rafiq-azmi/
           </a>
         </span>
         <br />
@@ -50,9 +62,9 @@ const Header = () => {
           Github &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:{" "}
           <a
             className="underline text-blue-500"
-            href="https://github.com/AhmadMirza2023"
+            href="https://github.com/Amierza"
           >
-            https://github.com/AhmadMirza2023
+            https://github.com/Amierza
           </a>
         </span>
         <br />
