@@ -4,7 +4,7 @@ export const projects = [
     title: "Warasin - Mental Health App",
     image: "https://amierza.github.io/portfolio-1/assets/project-1.png",
     description:
-      "Warasin is a web and mobile based mental health application that makes it easy for users to consult with psychologists, access mental health education, and utilize technology for emotional well-being. The app features KONSULIN for direct consultations, TANYAIN as an AI chatbot, AJARIN for educational content, DOPAMIN for daily motivation, TERAPIIN with therapeutic music, and EMOSIN for emotion detection based on user data. With Warasin, accessing mental health services becomes more convenient, helping to reduce depression and self-diagnosis among teenagers and young adults.",
+      "Warasin is a web and mobile based mental health application that makes it easy for users to consult with psychologists, access mental health education, and utilize technology for emotional well-being. The app features KONSULIN for direct consultations, TANYAIN as an AI chatbot, AJARIN for educational content and DOPAMIN for daily motivation. With Warasin, accessing mental health services becomes more convenient, helping to reduce depression and self-diagnosis among teenagers and young adults.",
     totalMember: "2",
     as: "Backend Developer",
     year: "2025",
