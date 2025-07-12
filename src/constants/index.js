@@ -4,7 +4,7 @@ export const projects = [
     title: "TitipanQ",
     image: "https://ahmadmirza.netlify.app/assets/project-1.png",
     description:
-      "TitipanQ is a WhatsApp-based chatbot system that enables users to track and interact with their package information using natural, everyday language. With WhatsMeow for seamless WhatsApp integration and OpenAI GPT for advanced intent detection, TitipanQ can understand flexible user messages—not limited to fixed commands like 'cek paket <id>'—and respond in a natural, conversational way. On the operational side, admins can easily scan QR or barcodes to automate package entry into the system, streamlining manual input. This makes TitipanQ a smart, end-to-end solution for enhancing package delivery communication between customers and service providers.",
+      "TitipanQ is a WhatsApp based chatbot system that enables users to track and interact with their package information using natural, everyday language. With WhatsMeow for seamless WhatsApp integration and OpenAI GPT for advanced intent detection, TitipanQ can understand flexible user messages not limited to fixed commands like 'cek paket <id>' and respond in a natural, conversational way. On the operational side, admins can easily scan QR or barcodes to automate package entry into the system, streamlining manual input. This makes TitipanQ a smart, end to end solution for enhancing package delivery communication between customers and service providers.",
     totalMember: "3",
     as: "Back-End Developer",
     year: "2025",
