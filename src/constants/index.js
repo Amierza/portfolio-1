@@ -1,8 +1,9 @@
+const BASE_URL = "https://ahmad-mirza.vercel.app";
 export const projects = [
   {
     id: "0",
     title: "Nawasena ITS",
-    image: "https://ahmadmirza.netlify.app/assets/project-4.png",
+    image: `${BASE_URL}/assets/project-4.png`,
     description:
       "Nawasena ITS is the official website of a research and innovation team from Institut Teknologi Sepuluh Nopember (ITS), designed to showcase their achievements and communicate their mission. I developed both the public-facing landing page and a custom admin dashboard. The landing page highlights featured ships, sponsors, and team members, while the dashboard allows administrators to manage content such as news, achievements, competitions, and fleet updates. This project demonstrates my ability to build full-stack web applications with structured content management, clean design, and real-time updates.",
     totalMember: "2",
@@ -14,7 +15,7 @@ export const projects = [
   {
     id: "1",
     title: "TedX",
-    image: "https://ahmadmirza.netlify.app/assets/project-2.png",
+    image: `${BASE_URL}/assets/project-2.png`,
     description:
       "TEDxUniversitasAirlangga is an independently organized TED event that required a reliable and secure ticketing platform. As a Backend Developer, I was responsible for building the core backend services using Golang, focusing on transactional features such as ticket management, bundle logic for tickets and merchandise, and payment processing. The system integrates with Midtrans via webhook to ensure real-time payment verification and automates e-ticket delivery to attendees via email. This project broadened my experience in developing production-grade, event-based systems with real-world financial and logistical requirements.",
     totalMember: "13",
@@ -25,7 +26,7 @@ export const projects = [
   {
     id: "2",
     title: "ISAC 2025",
-    image: "https://ahmadmirza.netlify.app/assets/project-3.png",
+    image: `${BASE_URL}/assets/project-3.png`,
     description:
       "ISAC (Information Systems Airlangga Competition) is a national competition for high school students organized by the Information Systems Student Association at Universitas Airlangga. As the Web Development Lead for ISAC 2025, I oversaw the development of the official website, managing a team responsible for both UI/UX design and implementation. I initiated a strategic migration from Laravel to Next.js to improve scalability, maintainability, and development efficiency. My role involved not only system architecture and technical decision-making but also task delegation, team coordination, and quality assurance.",
     totalMember: "13",
@@ -36,7 +37,7 @@ export const projects = [
   {
     id: "3",
     title: "TitipanQ",
-    image: "https://ahmadmirza.netlify.app/assets/project-1.png",
+    image: `${BASE_URL}/assets/project-1.png`,
     description:
       "TitipanQ is a WhatsApp based chatbot system that enables users to track and interact with their package information using natural, everyday language. With WhatsMeow for seamless WhatsApp integration and OpenAI GPT for advanced intent detection, TitipanQ can understand flexible user messages not limited to fixed commands like 'cek paket <id>' and respond in a natural, conversational way. On the operational side, admins can easily scan QR or barcodes to automate package entry into the system, streamlining manual input. This makes TitipanQ a smart, end to end solution for enhancing package delivery communication between customers and service providers.",
     totalMember: "3",
@@ -47,7 +48,7 @@ export const projects = [
   {
     id: "4",
     title: "Warasin - Mental Health App",
-    image: "https://ahmadmirza.netlify.app/assets/project-5.png",
+    image: `${BASE_URL}/assets/project-5.png`,
     description:
       "Warasin is a web and mobile based mental health application that makes it easy for users to consult with psychologists, access mental health education, and utilize technology for emotional well-being. The app features KONSULIN for direct consultations, TANYAIN as an AI chatbot, AJARIN for educational content and DOPAMIN for daily motivation. With Warasin, accessing mental health services becomes more convenient, helping to reduce depression and self-diagnosis among teenagers and young adults.",
     totalMember: "2",
@@ -59,7 +60,7 @@ export const projects = [
   {
     id: "5",
     title: "Hadirin - E-Presence App",
-    image: "https://ahmadmirza.netlify.app/assets/project-6.png",
+    image: `${BASE_URL}/assets/project-6.png`,
     description:
       "Hadirin is an E-Presence application built with Flutter and Golang, designed to streamline employee attendance tracking using location based tracking. The app ensures that employees can only clock in if they are within the designated office area, based on latitude and longitude coordinates. Hadirin supports two types of attendance: check-in and check-out, while also keeping a record of employees' attendance history. Additionally, there are specific time rules in place. If an employee clocks in or out beyond the designated hours, certain risks or consequences may apply. With these features, Hadirin enhances transparency and discipline in employee attendance management.",
     totalMember: "4",
@@ -71,7 +72,7 @@ export const projects = [
   {
     id: "6",
     title: "E-wallet API",
-    image: "https://ahmadmirza.netlify.app/assets/project-7.png",
+    image: `${BASE_URL}/assets/project-7.png`,
     description:
       "The E-Wallet API is a backend system built with Golang and the Gin framework, designed to handle digital transactions securely and efficiently. This API supports user management features, including registration (/api/user/register) and login with JWT authentication (/api/user/login). For financial transactions, it provides balance top-ups (/api/user/topup), payments (/api/user/pay), and peer-to-peer transfers (/api/user/transfer), all requiring JWT authentication. Additionally, the API allows administrators or authorized users to access the user list (/api/user/get-all-user) and transaction history (/api/user/transactions). Users can also update their profiles (/api/user/update-profile). With these features, the E-Wallet API ensures that transactions are fast, secure, and transparent, providing a seamless experience for managing digital finances.",
     totalMember: "1",
@@ -83,7 +84,7 @@ export const projects = [
   {
     id: "7",
     title: "Faculty of Economics, Darul Ulum University Lamongan",
-    image: "https://ahmadmirza.netlify.app/assets/project-8.png",
+    image: `${BASE_URL}/assets/project-8.png`,
     description:
       "The Landing Page for the Faculty of Economics - Darul Ulum University Lamongan is a website development project that includes both a landing page and an admin dashboard for efficient content management. Built using React for the frontend and Laravel for the backend, this project also leverages Laravel Filament to streamline admin dashboard management. The landing page serves as the main information portal, providing news and important announcements for students and academic staff. To support content management, an admin dashboard is available, allowing administrators to perform CRUD (Create, Read, Update, Delete) operations on news articles, as well as upload and manage essential documents such as SOPs and other necessary files. With this system, content management becomes more structured and efficient.",
     totalMember: "1",
@@ -95,7 +96,7 @@ export const projects = [
   {
     id: "8",
     title: "ISAC 2024",
-    image: "https://ahmadmirza.netlify.app/assets/project-9.png",
+    image: `${BASE_URL}/assets/project-9.png`,
     description:
       "ISAC (Information Systems Airlangga Competition) is an annual national event organized by the Information Systems Student Association of Universitas Airlangga, aimed at high school students. In ISAC 2024, I served as a Backend Developer, where I was responsible for building core backend functionality using Laravel and MySQL. Despite being my first experience with backend development, I learned how to design databases, apply MVC architecture, and implement essential business logic. This project marked the beginning of my journey into backend engineering and sparked my long-term passion for server-side development.",
     totalMember: "1",
