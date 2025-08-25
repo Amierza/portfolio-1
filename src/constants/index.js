@@ -1,14 +1,15 @@
 export const projects = [
   {
     id: "0",
-    title: "TitipanQ",
-    image: "https://ahmadmirza.netlify.app/assets/project-1.png",
+    title: "Nawasena ITS",
+    image: "https://ahmadmirza.netlify.app/assets/project-4.png",
     description:
-      "TitipanQ is a WhatsApp based chatbot system that enables users to track and interact with their package information using natural, everyday language. With WhatsMeow for seamless WhatsApp integration and OpenAI GPT for advanced intent detection, TitipanQ can understand flexible user messages not limited to fixed commands like 'cek paket <id>' and respond in a natural, conversational way. On the operational side, admins can easily scan QR or barcodes to automate package entry into the system, streamlining manual input. This makes TitipanQ a smart, end to end solution for enhancing package delivery communication between customers and service providers.",
-    totalMember: "3",
-    as: "Back-End Developer",
+      "Nawasena ITS is the official website of a research and innovation team from Institut Teknologi Sepuluh Nopember (ITS), designed to showcase their achievements and communicate their mission. I developed both the public-facing landing page and a custom admin dashboard. The landing page highlights featured ships, sponsors, and team members, while the dashboard allows administrators to manage content such as news, achievements, competitions, and fleet updates. This project demonstrates my ability to build full-stack web applications with structured content management, clean design, and real-time updates.",
+    totalMember: "2",
+    as: "Full-Stack Developer",
     year: "2025",
     stack: "NextJs & Golang",
+    urlProd: "nawasenaitsteam.com",
   },
   {
     id: "1",
@@ -34,14 +35,14 @@ export const projects = [
   },
   {
     id: "3",
-    title: "Nawasena ITS",
-    image: "https://ahmadmirza.netlify.app/assets/project-4.png",
+    title: "TitipanQ",
+    image: "https://ahmadmirza.netlify.app/assets/project-1.png",
     description:
-      "Nawasena ITS is the official website of a research and innovation team from Institut Teknologi Sepuluh Nopember (ITS), designed to showcase their achievements and communicate their mission. I developed both the public-facing landing page and a custom admin dashboard. The landing page highlights featured ships, sponsors, and team members, while the dashboard allows administrators to manage content such as news, achievements, competitions, and fleet updates. This project demonstrates my ability to build full-stack web applications with structured content management, clean design, and real-time updates.",
-    totalMember: "1",
-    as: "Full-Stack Developer",
+      "TitipanQ is a WhatsApp based chatbot system that enables users to track and interact with their package information using natural, everyday language. With WhatsMeow for seamless WhatsApp integration and OpenAI GPT for advanced intent detection, TitipanQ can understand flexible user messages not limited to fixed commands like 'cek paket <id>' and respond in a natural, conversational way. On the operational side, admins can easily scan QR or barcodes to automate package entry into the system, streamlining manual input. This makes TitipanQ a smart, end to end solution for enhancing package delivery communication between customers and service providers.",
+    totalMember: "3",
+    as: "Back-End Developer",
     year: "2025",
-    stack: "NextJs",
+    stack: "NextJs & Golang",
   },
   {
     id: "4",

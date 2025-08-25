@@ -18,7 +18,7 @@ const Header = () => {
         <h1 className="text-[1.5rem] font-semibold">
           Ahmad <span className="text-gradient">Mirza</span> Rafiq Azmi
         </h1>
-        <p>Back-End Developer</p>
+        <p>Software Engineer</p>
       </div>
       <div className="mt-[2rem] text-sm">
         <h1 className="font-bold text-xl">Hi, I{"'"}m Mirza</h1>
