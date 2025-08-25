@@ -9,7 +9,7 @@ export const projects = [
     as: "Full-Stack Developer",
     year: "2025",
     stack: "NextJs & Golang",
-    urlProd: "nawasenaitsteam.com",
+    urlProd: "https://nawasenaitsteam.com",
   },
   {
     id: "1",
