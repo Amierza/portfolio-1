@@ -22,6 +22,7 @@ export const projects = [
     as: "Back-End Developer",
     year: "2025",
     stack: "NextJs & Golang",
+    urlProd: "https://tedxuniversitasairlangga.com",
   },
   {
     id: "2",
@@ -33,6 +34,7 @@ export const projects = [
     as: "Project Manager",
     year: "2025",
     stack: "NextJs",
+    urlProd: "https://isac2025.himsiunair.com",
   },
   {
     id: "3",
