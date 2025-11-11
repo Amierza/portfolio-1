@@ -2,18 +2,30 @@ const BASE_URL = "https://ahmad-mirza.vercel.app";
 export const projects = [
   {
     id: "0",
-    title: "Nawasena ITS",
-    image: `${BASE_URL}/assets/project-4.png`,
+    title: "UTA (Unair Thesis Assistant)",
+    image: `${BASE_URL}/assets/project-10.png`,
     description:
-      "Nawasena ITS is the official website of a research and innovation team from Institut Teknologi Sepuluh Nopember (ITS), designed to showcase their achievements and communicate their mission. I developed both the public-facing landing page and a custom admin dashboard. The landing page highlights featured ships, sponsors, and team members, while the dashboard allows administrators to manage content such as news, achievements, competitions, and fleet updates. This project demonstrates my ability to build full-stack web applications with structured content management, clean design, and real-time updates.",
-    totalMember: "2",
-    as: "Full-Stack Developer",
+      "Unair Thesis Assistant (UTA) is a web-based application developed to digitalize and streamline the thesis supervision process at Universitas Airlangga. The platform enables students and lecturers to conduct online thesis guidance sessions through a real-time chat system integrated with AI-generated summaries using OpenAI GPT. It also features scheduling management, real-time notifications, and session documentation. I built the entire system from scratch, including UI/UX design, frontend (Vue.js), and backend microservices (Golang, Redis, RabbitMQ, gRPC, PostgreSQL). This project reflects my ability to design and implement scalable, AI-integrated systems that enhance academic collaboration and efficiency.",
+    totalMember: "1",
+    as: "Software Engineer (Full-Stack)",
     year: "2025",
-    stack: "NextJs & Golang",
-    urlProd: "https://nawasenaitsteam.com",
+    stack: "VueJs & Golang",
+    urlProd: "https://uta-frontend.vercel.app",
   },
   {
     id: "1",
+    title: "UMKM Desa Kare Madiun",
+    image: `${BASE_URL}/assets/project-11.png`,
+    description:
+      "UMKM Desa Kare is a digital ecosystem designed to empower local businesses and promote tourism in Desa Kare, East Java. The platform integrates product management, homestay booking, facility information, and an interactive village map to enhance user experience and accessibility. It also features an intelligent chatbot assistant that provides real-time information and helps users explore products and accommodations efficiently. I developed the entire backend using Golang with a RESTful architecture, PostgreSQL, and Docker for deployment, ensuring scalability, performance, and data integrity. This project demonstrates my ability to design and implement production-ready backend systems enriched with AI and interactive features to support community-driven digital transformation.",
+    totalMember: "5",
+    as: "Back-End Developer",
+    year: "2025",
+    stack: "ReactJs & Golang",
+    urlProd: "https://umkmdesakare.com",
+  },
+  {
+    id: "2",
     title: "TedX",
     image: `${BASE_URL}/assets/project-2.png`,
     description:
@@ -25,7 +37,19 @@ export const projects = [
     urlProd: "https://tedxuniversitasairlangga.com",
   },
   {
-    id: "2",
+    id: "3",
+    title: "Nawasena ITS",
+    image: `${BASE_URL}/assets/project-4.png`,
+    description:
+      "Nawasena ITS is the official website of a research and innovation team from Institut Teknologi Sepuluh Nopember (ITS), designed to showcase their achievements and communicate their mission. I developed both the public-facing landing page and a custom admin dashboard. The landing page highlights featured ships, sponsors, and team members, while the dashboard allows administrators to manage content such as news, achievements, competitions, and fleet updates. This project demonstrates my ability to build full-stack web applications with structured content management, clean design, and real-time updates.",
+    totalMember: "2",
+    as: "Full-Stack Developer",
+    year: "2025",
+    stack: "NextJs & Golang",
+    urlProd: "https://nawasenaitsteam.com",
+  },
+  {
+    id: "4",
     title: "ISAC 2025",
     image: `${BASE_URL}/assets/project-3.png`,
     description:
@@ -37,7 +61,7 @@ export const projects = [
     urlProd: "https://isac2025.himsiunair.com",
   },
   {
-    id: "3",
+    id: "5",
     title: "TitipanQ",
     image: `${BASE_URL}/assets/project-1.png`,
     description:
@@ -48,7 +72,7 @@ export const projects = [
     stack: "NextJs & Golang",
   },
   {
-    id: "4",
+    id: "6",
     title: "Warasin - Mental Health App",
     image: `${BASE_URL}/assets/project-5.png`,
     description:
@@ -60,7 +84,7 @@ export const projects = [
     urlCode: "https://github.com/Amierza/warasin-mobile",
   },
   {
-    id: "5",
+    id: "7",
     title: "Hadirin - E-Presence App",
     image: `${BASE_URL}/assets/project-6.png`,
     description:
@@ -72,7 +96,7 @@ export const projects = [
     urlCode: "https://github.com/Amierza/hadirin",
   },
   {
-    id: "6",
+    id: "8",
     title: "E-wallet API",
     image: `${BASE_URL}/assets/project-7.png`,
     description:
@@ -84,7 +108,7 @@ export const projects = [
     urlCode: "https://github.com/Amierza/ewallet---go-clean-architecture",
   },
   {
-    id: "7",
+    id: "9",
     title: "Faculty of Economics, Darul Ulum University Lamongan",
     image: `${BASE_URL}/assets/project-8.png`,
     description:
@@ -96,7 +120,7 @@ export const projects = [
     urlProd: "http://fe.unisda.ac.id/",
   },
   {
-    id: "8",
+    id: "10",
     title: "ISAC 2024",
     image: `${BASE_URL}/assets/project-9.png`,
     description:
