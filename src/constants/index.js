@@ -10,7 +10,7 @@ export const projects = [
     as: "Software Engineer (Full-Stack)",
     year: "2025",
     stack: "VueJs & Golang",
-    urlProd: "https://uta-frontend.vercel.app",
+    urlCode: "https://github.com/Amierza/uta-frontend",
   },
   {
     id: "1",
@@ -46,7 +46,6 @@ export const projects = [
     as: "Full-Stack Developer",
     year: "2025",
     stack: "NextJs & Golang",
-    urlProd: "https://nawasenaitsteam.com",
   },
   {
     id: "4",
@@ -58,7 +57,6 @@ export const projects = [
     as: "Project Manager",
     year: "2025",
     stack: "NextJs",
-    urlProd: "https://isac2025.himsiunair.com",
   },
   {
     id: "5",
