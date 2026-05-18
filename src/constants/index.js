@@ -2,6 +2,17 @@ const BASE_URL = "https://ahmad-mirza.vercel.app";
 export const projects = [
   {
     id: "0",
+    title: "Simponi",
+    image: `${BASE_URL}/assets/project-12.png`,
+    description:
+      "Simponi is an omnichannel inventory management platform that allows businesses to manage sales, products, and inventory from multiple marketplaces through one centralized dashboard. In this project, I worked as a Backend Developer and System Analyst, where I was responsible for translating business needs into technical requirements and designing the overall system architecture. One of the biggest challenges was designing a scalable multi store system while keeping inventory synchronization consistent across different marketplaces such as Shopee and Tokopedia. I also needed to prepare the system for race conditions when multiple orders update the same product stock simultaneously. To solve this, I designed a centralized inventory approach and planned asynchronous stock synchronization using RabbitMQ. This project also became my first experience integrating directly with marketplace platforms, requiring me to align both technical implementation and business processes while designing the architecture to support more platforms in the future.",
+    totalMember: "4",
+    as: "Back-End Developer & System Analyst",
+    year: "2025",
+    stack: "NextJs & Golang",
+  },
+  {
+    id: "1",
     title: "UTA (Unair Thesis Assistant)",
     image: `${BASE_URL}/assets/project-10.png`,
     description:
@@ -13,7 +24,7 @@ export const projects = [
     urlCode: "https://github.com/Amierza/uta-frontend",
   },
   {
-    id: "1",
+    id: "2",
     title: "UMKM Desa Kare Madiun",
     image: `${BASE_URL}/assets/project-11.png`,
     description:
@@ -25,7 +36,7 @@ export const projects = [
     urlProd: "https://umkmdesakare.com",
   },
   {
-    id: "2",
+    id: "3",
     title: "TedX",
     image: `${BASE_URL}/assets/project-2.png`,
     description:
@@ -37,7 +48,7 @@ export const projects = [
     urlProd: "https://tedxuniversitasairlangga.com",
   },
   {
-    id: "3",
+    id: "4",
     title: "Nawasena ITS",
     image: `${BASE_URL}/assets/project-4.png`,
     description:
@@ -48,7 +59,7 @@ export const projects = [
     stack: "NextJs & Golang",
   },
   {
-    id: "4",
+    id: "5",
     title: "ISAC 2025",
     image: `${BASE_URL}/assets/project-3.png`,
     description:
@@ -59,7 +70,7 @@ export const projects = [
     stack: "NextJs",
   },
   {
-    id: "5",
+    id: "6",
     title: "TitipanQ",
     image: `${BASE_URL}/assets/project-1.png`,
     description:
@@ -70,7 +81,7 @@ export const projects = [
     stack: "NextJs & Golang",
   },
   {
-    id: "6",
+    id: "7",
     title: "Warasin - Mental Health App",
     image: `${BASE_URL}/assets/project-5.png`,
     description:
@@ -82,7 +93,7 @@ export const projects = [
     urlCode: "https://github.com/Amierza/warasin-mobile",
   },
   {
-    id: "7",
+    id: "8",
     title: "Hadirin - E-Presence App",
     image: `${BASE_URL}/assets/project-6.png`,
     description:
@@ -94,7 +105,7 @@ export const projects = [
     urlCode: "https://github.com/Amierza/hadirin",
   },
   {
-    id: "8",
+    id: "9",
     title: "E-wallet API",
     image: `${BASE_URL}/assets/project-7.png`,
     description:
@@ -106,7 +117,7 @@ export const projects = [
     urlCode: "https://github.com/Amierza/ewallet---go-clean-architecture",
   },
   {
-    id: "9",
+    id: "10",
     title: "Faculty of Economics, Darul Ulum University Lamongan",
     image: `${BASE_URL}/assets/project-8.png`,
     description:
@@ -118,7 +129,7 @@ export const projects = [
     urlProd: "http://fe.unisda.ac.id/",
   },
   {
-    id: "10",
+    id: "11",
     title: "ISAC 2024",
     image: `${BASE_URL}/assets/project-9.png`,
     description:
