@@ -10,6 +10,7 @@ export const projects = [
     as: "Software Engineer (Backend) & System Analyst",
     year: "2026",
     stack: "Golang",
+    urlProd: "https://simponi.ngodingbareng.my.id",
   },
   {
     id: "1",
