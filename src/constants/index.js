@@ -6,10 +6,10 @@ export const projects = [
     image: `${BASE_URL}/assets/project-12.png`,
     description:
       "Simponi is an omnichannel inventory management platform that allows businesses to manage sales, products, and inventory from multiple marketplaces through one centralized dashboard. In this project, I worked as a Backend Developer and System Analyst, where I was responsible for translating business needs into technical requirements and designing the overall system architecture. One of the biggest challenges was designing a scalable multi store system while keeping inventory synchronization consistent across different marketplaces such as Shopee and Tokopedia. I also needed to prepare the system for race conditions when multiple orders update the same product stock simultaneously. To solve this, I designed a centralized inventory approach and planned asynchronous stock synchronization using RabbitMQ. This project also became my first experience integrating directly with marketplace platforms, requiring me to align both technical implementation and business processes while designing the architecture to support more platforms in the future.",
-    totalMember: "4",
-    as: "Back-End Developer & System Analyst",
-    year: "2025",
-    stack: "NextJs & Golang",
+    totalMember: "6",
+    as: "Software Engineer (Backend) & System Analyst",
+    year: "2026",
+    stack: "Golang",
   },
   {
     id: "1",
